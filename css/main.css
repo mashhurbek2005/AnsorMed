@@ -28,6 +28,10 @@ body{
     color: #DE2E54;
 }
 
+.logo-link:active{
+    color: rgba(235, 130, 152, 1);
+}
+
 .site-logo{
     width: 50px;
     height: 50px;
@@ -64,6 +68,10 @@ body{
     color: #DE2E54;
 }
 
+.nav-link:active{
+    color: rgba(235, 130, 152, 1);
+}
+
 .sign-up{
     padding: 12px 24px;
     font-weight: 700;
@@ -84,8 +92,10 @@ body{
 }
 
 .sign-up:active{
-    border: 2px solid rgba(222, 46, 84, 1);
+    background-color: rgba(235, 130, 152, 1);
+    color: #fff;
 }
+
 
 /* site main begin */
 
@@ -216,6 +226,15 @@ body{
     border: 2px solid #fff;
     background-color: #0EB4C1;
     color: #FFFFFF;
+}
+
+.register-sign-up:hover{
+    background-color: rgba(222, 46, 84, 1);
+    color: #fff;
+}
+
+.register-sign-up:active{
+    background-color: rgba(139, 100, 128, 1);
 }
 
 /* footer */
